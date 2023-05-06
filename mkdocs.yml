@@ -1,7 +1,7 @@
 site_name: AlphaFold2 on Mahuika cluster- Extended documentation
 site_author: NeSI
 site_dir: public
-site_url: "https://nesi.github.io/20230503-pfr-nfandarray/"
+site_url: "https://nesi.github.io/alphafold2-on-mahuika/"
 
 #Repository information
 

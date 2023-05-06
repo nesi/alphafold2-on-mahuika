@@ -6,9 +6,10 @@ Developed at DeepMind, the AlphaFold architecture is a delicate collaboration be
 
 The architecture is depicted as follows. Note that the visualizations below were copied and adapted from the official AlphaFold paper (Jumper et al, 2021).
 
-![image](./nesi_images/architecture.png)
+
 
 !!! circle-info ""
+    ![image](./nesi_images/architecture.png)
 
     **A. User input**
     
@@ -35,6 +36,10 @@ The architecture is depicted as follows. Note that the visualizations below were
     To summarize, the following diagram illustrates the full prediction process: one database search is done to find MSAs and templates, and the exact same input is given to five identical neural network architectures, though parameterized differently. This yields five 3-D structures with tiny or big differences, which are optionally relaxed and finally ranked according to the model’s confidence.
 
     ![image](./nesi_images/architecture_2.png)
+
+    !!! quote "References"
+    
+        Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
 
 ## AlphFold2 Training Scheme
 

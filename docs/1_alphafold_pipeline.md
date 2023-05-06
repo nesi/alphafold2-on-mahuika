@@ -33,3 +33,6 @@ The architecture is depicted as follows. Note that the visualizations below were
     After each model predicts a 3-D structure, AMBER relaxation is done. Structures are ranked by the average predicted local distance difference test (pLDDT), found in the output of the prediction models. The pLDDT can be seen as a measure of local prediction confidence per position.
     
     To summarize, the following diagram illustrates the full prediction process: one database search is done to find MSAs and templates, and the exact same input is given to five identical neural network architectures, though parameterized differently. This yields five 3-D structures with tiny or big differences, which are optionally relaxed and finally ranked according to the model’s confidence.
+
+    ![image](./nesi_images/architecture_2.png)
+

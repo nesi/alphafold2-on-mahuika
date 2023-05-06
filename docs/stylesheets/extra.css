@@ -591,7 +591,7 @@
   }
   .md-typeset .circle-info > .admonition-title,
   .md-typeset .circle-info > summary {
-    background-color: rgba(221, 125, 16, 0.459);
+    background-color: rgba(240, 199, 19, 0.459);
   }
   .md-typeset .circle-info > .admonition-title::before,
   .md-typeset .circle-info > summary::before {

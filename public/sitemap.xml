@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://nesi.github.io/20230503-pfr-nfandarray/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <loc>https://nesi.github.io/alphafold2-on-mahuika/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nesi.github.io/alphafold2-on-mahuika/1_alphafold_pipeline/</loc>
+         <lastmod>2023-05-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -1,6 +1,6 @@
 
 <center>
-# AlphaFold2 on Mahuika cluster : Extended documentation
+# AlphaFold2 on Mahuika cluster : Extended support documentation
 </center>
 
 

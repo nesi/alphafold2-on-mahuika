@@ -64,5 +64,7 @@ We provide a python script (`visualize_alphafold_results.py`) created by [VIB Be
 
     $ module load pymol-open-source/2.5.0
 
-    $  
+    $ pymol
     ```
+
+    ![image](./nesi_images/pymol_vdt.png)

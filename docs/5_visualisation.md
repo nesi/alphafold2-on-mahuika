@@ -8,7 +8,7 @@
 
 ## **Visualisation Script**
 
-We provide a modified python script (`visualize_alphafold_results.py`) created by [VIB Belgium](https://elearning.bits.vib.be/courses/alphafold/lessons/alphafold-on-the-hpc/topic/alphafold-outputs/) to extract pLDDT, PAE and MSA visualisations (inspired by ColabFold code). 
+We provide a modified version of a python script (`visualize_alphafold_results.py`) created by [VIB Belgium](https://elearning.bits.vib.be/courses/alphafold/lessons/alphafold-on-the-hpc/topic/alphafold-outputs/) to extract pLDDT, PAE and MSA visualisations (inspired by ColabFold code). 
 
 !!! quote ""
 

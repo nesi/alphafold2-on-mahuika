@@ -1,6 +1,6 @@
 
 <center>
-# AlphaFold2 on Mahuika cluster : Extended support documentation
+# AlphaFold2 on Mahuika cluster 
 </center>
 
 ![image](./nesi_images/casp14_predictions.gif)

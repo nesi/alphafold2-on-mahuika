@@ -3,6 +3,8 @@
 # AlphaFold2 on Mahuika cluster : Extended support documentation
 </center>
 
+![image](./nesi_images/casp14_predictions.gif)
+
 
 !!! circle-info "Description"
     This package provides an implementation of the inference pipeline of AlphaFold v2.0. This is a completely new model that was entered in CASP14 and published in Nature. For simplicity, we refer to this model as AlphaFold throughout the rest of this document.

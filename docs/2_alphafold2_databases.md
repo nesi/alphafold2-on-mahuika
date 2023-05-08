@@ -1,6 +1,6 @@
 # AlphaFold2 Databases
 
-AlphaFold databases are stored in */opt/nesi/db/alphafold_db/*  parent directory. In order to make the database calling more convenient, we have prepared modules for each version of the database. Running module spider AlphaFold2DB will list the available versions based on when they were downloaded (Year-Month)
+AlphaFold databases are stored in */opt/nesi/db/alphafold_db/*  parent directory. In order to make the database calling more convenient, we have prepared modules for each version of the database. Running `module spider AlphaFold2DB` will list the available versions named after the downladed Year and Month (Year-Month)
 
 !!! terminal "terminal"
     ```bash
@@ -17,7 +17,7 @@ AlphaFold databases are stored in */opt/nesi/db/alphafold_db/*  parent directory
             AlphaFold2DB/2023-04
 
     ```
-Loading a module will set the $AF2DB variable which is pointing to the  selected version of the database. For an example. 
+Loading a module will set the `$AF2DB` environment variable which is pointing to the  selected version of the database. For an example. 
 
 !!! terminal "terminal"
     ```bash

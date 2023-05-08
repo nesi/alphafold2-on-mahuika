@@ -14,7 +14,7 @@
     <center>![image](./nesi_images/directory_structure.png){width="260"}</center>
 
 ## `monomer`
-### Slurm script for a single query file  
+### **Slurm script for a single query file**  
 
 
 !!! terminal "terminal"
@@ -52,7 +52,7 @@
     --fasta_paths=${INPUT_PATH}/filename.fasta
     ```
 
-### Slurm array for multiple queries
+### **Slurm array for multiple queries**
 
 !!! terminal "code"
     ```bash

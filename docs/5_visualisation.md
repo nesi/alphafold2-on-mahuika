@@ -6,9 +6,9 @@
     - Please use Mahuika JupyterHub for Visualisation component. JupyterHub can be accessed via https://jupyter.nesi.org.nz/hub/login
 
 
-## Visualisation Script
+## **Visualisation Script**
 
-We provide a python script (`visualize_alphafold_results.py`) created by [VIB Belgium](https://elearning.bits.vib.be/courses/alphafold/lessons/alphafold-on-the-hpc/topic/alphafold-outputs/) to extract pLDDT, PAE and MSA visualizations (inspired by ColabFold code). 
+We provide a modified python script (`visualize_alphafold_results.py`) created by [VIB Belgium](https://elearning.bits.vib.be/courses/alphafold/lessons/alphafold-on-the-hpc/topic/alphafold-outputs/) to extract pLDDT, PAE and MSA visualisations (inspired by ColabFold code). 
 
 !!! quote ""
 
@@ -43,15 +43,15 @@ We provide a python script (`visualize_alphafold_results.py`) created by [VIB Be
       GA98_coverage_LDDT.png  GA98_PAE.png
     ```
 
-!!! image "Content of `GA98_coverage_LDDT.png` "
+    !!! image "Content of `GA98_coverage_LDDT.png` "
+    
+        ![image](./nesi_images/lddt.png)
+    
+    !!! image "Content of `GA98_PAE.png`" 
+        ![image](./nesi_images/pae.png)
 
-    ![image](./nesi_images/lddt.png)
 
-!!! image "Content of `GA98_PAE.png`" 
-    ![image](./nesi_images/pae.png)
-
-
-## Using PyMOL molecular visualization system via Virtual Desktop
+## **Using PyMOL molecular visualization system via Virtual Desktop**
 
 !!! jupyter "Launch `pymol`"
 

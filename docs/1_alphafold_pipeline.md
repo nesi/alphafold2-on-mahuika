@@ -1,6 +1,6 @@
 # AlphaFold2 Pipeline
 
-## Overview of the Architecture
+## **Overview of the Architecture**
 
 Developed at DeepMind, the AlphaFold architecture is a delicate collaboration between different modules, trained using end-to-end learning. This means that all parameters in the network are trained at once, from input to output, without the need of independently finetuning individual modules.
 
@@ -41,7 +41,7 @@ The architecture is depicted as follows. Note that the visualizations below were
     
         Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
 
-## AlphFold2 Training Scheme
+## **AlphaFold2 Training Scheme**
 
 !!! circle-info ""
 

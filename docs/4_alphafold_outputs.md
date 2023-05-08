@@ -13,3 +13,9 @@
     
 
     ![image](./nesi_images/output_definitions.png)
+
+    !!! warning "Running thousands of queries ?. Keep track of Disk and Inode quota"
+
+        - The files that take up the most space are usually the MSA (depending on the actual MSA size, but this can take several GBs) and the `.pkl` data files (grows quadratically with sequence length, with more than 1 GB reached for sequences of more than ~800 amino acids long)
+
+        - Use `nn_storage_quota` to keep track of usage 

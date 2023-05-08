@@ -1,1 +1,6 @@
 # Visualisation
+
+
+!!! jupyter "jupyter"
+
+    check 

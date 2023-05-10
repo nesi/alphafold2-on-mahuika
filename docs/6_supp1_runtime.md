@@ -47,3 +47,5 @@
     <center>![image](./nesi_images/memory.png){width="600"}</center>
 
 !!! warning " I/O bottleneck"
+    
+    - <small>notes pending..</small>

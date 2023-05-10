@@ -26,3 +26,21 @@ Loading a module will set the `$AF2DB` environment variable which is pointing to
     $ echo $AF2DB 
     /opt/nesi/db/alphafold_db/2023-04
     ```
+!!! database "Databases and their sizes (`T` = TB , `G` = GB , `M` = MB)"
+
+    ```
+    2023-04/
+    ├── bfd               1.8 T
+    ├── mgnify            120 G
+    ├── params            5.3 G
+    ├── pdb70             56G G
+    ├── pdb_mmcif         272 G
+    │   └── mmcif_files
+    ├── pdb_seqres        480 M
+    ├── small_bfd          17 G
+    ├── uniprot           111 G
+    ├── uniref30          206 G
+    └── uniref90           73 G
+    ```
+
+     - Size of `2023-04` database is `~ 2.6 T`

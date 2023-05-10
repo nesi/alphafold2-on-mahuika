@@ -40,8 +40,10 @@
 
 !!! glass-chart "Runtimes on A100 GPUs and Memory (GB) utilisation"
 
-    ![image](./nesi_images/runtime.png)
+    <center>![image](./nesi_images/runtime.png){width="600"}</center>
 
     <br>
 
-    ![image](./nesi_images/memory.png)
+    <center>![image](./nesi_images/memory.png){width="600"}</center>
+
+!!! warning " I/O bottleneck"

@@ -356,7 +356,7 @@
   }
   .md-typeset .screwdriver-wrench > .admonition-title,
   .md-typeset .screwdriver-wrench > summary {
-    background-color: rgba(97, 121, 143, 0.151);
+    background-color: rgba(240, 104, 62, 0.575);
   }
   .md-typeset .screwdriver-wrench > .admonition-title::before,
   .md-typeset .screwdriver-wrench > summary::before {

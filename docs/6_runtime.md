@@ -25,3 +25,8 @@
     |**V**	       | 42	  | 28	 |8	|8	|29	|7	|28	|12	|8	                              | 88	 | 91   |
     |**W**	       | 7	  | 	 |2	|2	|9	|2	|1	|3	|1	                              | 12	 | 16   |
     |**Y**	       | 10	  | 11	 |3	|3	|20	|2	|10	|3	|9	                              | 46	 | 44   |
+
+
+!!! glass-chart "Runtimes on A100 GPUs and Memory (GB) utilisation"
+
+    ![image](./nesi_images/runtime.png)

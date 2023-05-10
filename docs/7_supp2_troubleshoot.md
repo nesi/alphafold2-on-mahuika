@@ -1,4 +1,4 @@
-# Supplementary.2: Troubleshooting
+# Supplementary. 2: Troubleshooting
 
 !!! screwdriver-wrench "1. `RuntimeError: Resource exhausted: Out of memory`"
 

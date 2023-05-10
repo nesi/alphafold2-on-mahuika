@@ -4,6 +4,7 @@
 !!! file-export "export"
 
     - *.fasta* amino acid sequence files used for benchmarking can be found [here](https://github.com/nesi/alphafold2-on-mahuika/tree/main/data/input_fasta)
+        - *source https://www.rcsb.org/*
     - Below is the composition of amino acids per Protein used in benchmarking. 
         - These were counted with.
             ```bash

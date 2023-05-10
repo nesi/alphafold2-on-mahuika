@@ -653,4 +653,22 @@
     -webkit-mask-image: var(--md-admonition-icon--image);
             mask-image: var(--md-admonition-icon--image);
   }
+ 
   
+:root {
+    --md-admonition-icon--table: url('data:image/svg+xml;charset=utf-9,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 256V160H224v96H64zm0 64H224v96H64V320zm224 96V320H448v96H288zM448 256H288V160H448v96zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>')
+  }
+  .md-typeset .admonition.table,
+  .md-typeset details.table {
+    border-color: rgb(211, 241, 190);
+  }
+  .md-typeset .table > .admonition-title,
+  .md-typeset .table > summary {
+    background-color: rgba(205, 231, 176, 0.459);
+  }
+  .md-typeset .table > .admonition-title::before,
+  .md-typeset .table > summary::before {
+    background-color: rgb(87, 172, 62);
+    -webkit-mask-image: var(--md-admonition-icon--table);
+            mask-image: var(--md-admonition-icon--table);
+  }

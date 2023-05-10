@@ -14,7 +14,7 @@
     <center>![image](./nesi_images/directory_structure.png){width="260"}</center>
 
 ## `monomer`
-### **Slurm script for a single query file**  
+### **Slurm script for a single `monomer` query file**  
 
 
 !!! terminal "terminal"
@@ -52,7 +52,7 @@
     --fasta_paths=${INPUT_PATH}/filename.fasta
     ```
 
-### **Slurm array for multiple queries**
+### **Slurm array for multiple `monomer` queries**
 
 !!! terminal "code"
     ```bash
@@ -91,4 +91,48 @@
     --db_preset=full_dbs \
     --output_dir=${OUTPUT}/${INPUT_NAMES} \
     --fasta_paths=${INPUT_PATH}/${INPUT_NAMES}.fasta
+    ```
+
+
+## `multimer`
+
+### **Slurm script for a single `multimer` query file¶**
+
+
+!!! terminal "code"
+
+    ```bash
+    #!/bin/bash -e
+    
+    #SBATCH --account       nesi12345
+    #SBATCH --job-name      af-test
+    #SBATCH --mem           24G
+    #SBATCH --cpus-per-task 6
+    #SBATCH --gpus-per-node A100:1
+    #SBATCH --time          03:00:00
+    #SBATCH --output        /nesi/nobackup/nesi12345/slurmlog/%j.out
+    
+    module purge
+    module load AlphaFold2DB/2023-04
+    module load AlphaFold/2.3.2
+    
+    INPUT_PATH=/nesi/nobackup/nesi12345/input
+    OUTPUT=/nesi/nobackup/nesi12345/output
+    
+    run_alphafold.py \
+    --use_gpu_relax \
+    --data_dir=$AF2DB \
+    --model_preset=multimer \
+    --uniprot_database_path=$AF2DB/uniprot/uniprot.fasta \
+    --uniref90_database_path=$AF2DB/uniref90/uniref90.fasta \
+    --mgnify_database_path=$AF2DB/mgnify/mgy_clusters_2022_05.fa \
+    --bfd_database_path=$AF2DB/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt \
+    --uniref30_database_path=$AF2DB/uniref30/UniRef30_2021_03 \
+    --pdb_seqres_database_path=$AF2DB/pdb_seqres/pdb_seqres.txt \
+    --template_mmcif_dir=$AF2DB/pdb_mmcif/mmcif_files \
+    --obsolete_pdbs_path=$AF2DB/pdb_mmcif/obsolete.dat \
+    --max_template_date=2022-6-1 \
+    --db_preset=full_dbs \
+    --output_dir=${OUTPUT} \
+    --fasta_paths=${INPUT}/test_multimer.fasta
     ```

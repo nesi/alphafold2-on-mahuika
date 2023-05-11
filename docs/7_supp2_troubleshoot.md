@@ -13,3 +13,16 @@
      export SINGULARITYENV_TF_FORCE_UNIFIED_MEMORY=1 
      export SINGULARITYENV_XLA_PYTHON_CLIENT_MEM_FRACTION=4.0
      ```
+
+!!! screwdriver-wrench "2. `ValueError: Invalid character in the sequence: n`"
+    
+    This will get triggered in the event where an input file doesn't obey the following conditions
+
+      - AlphaFold expects an input query sequence with capitalized one-letter amino-acid types from this set:
+  
+      ```
+       'A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 
+       'S', 'T', 'W', 'Y', 'V' 
+      ```
+      
+      - input file for the AlphaFold system should only contain one protein.

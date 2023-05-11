@@ -25,4 +25,4 @@
        'S', 'T', 'W', 'Y', 'V' 
       ```
       
-      - input file for the AlphaFold system should only contain one protein.
+      - For `monomer` runs: Input file for the AlphaFold system should only contain one protein.

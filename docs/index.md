@@ -33,3 +33,4 @@
 
     - Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. *Nature* 596, *583–589* (2021). https://doi.org/10.1038/s41586-021-03819-2
     - Vlaams Instituut voor Biotechnologie, (2022). AlphaFold and Friends on the HPC. https://elearning.bits.vib.be/courses/alphafold/
+    - DeepMind. AlphaFold GitHub. https://github.com/deepmind/alphafold
